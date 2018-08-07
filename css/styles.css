@@ -1,0 +1,40 @@
+body{
+	font-family: Arial;
+}
+nav{
+	background: black;
+	color: white;
+	height: 100px;
+	text-align: center;
+}
+nav h1{
+	margin: 0;
+}
+nav li{
+	display: inline-block;
+	margin-top: 10px;
+}
+nav li a{
+	color: white;
+	padding: 10px;
+}
+.wrapper{
+	margin: 50px auto;
+	width: 50%;
+}
+input, label{
+	display: block;
+	margin: 5px 0;
+}
+.loginform .recover{
+	display: block;
+}
+.button{
+	background-color: black;  
+	border-radius: 5px;
+	color: white;
+	display: inline-block;
+	margin: 5px 0;
+	padding: .5em;
+	text-decoration: none;
+}
