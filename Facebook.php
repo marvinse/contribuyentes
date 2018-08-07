@@ -1,8 +1,8 @@
 <?php
 class Facebook {
-    private $dbHost     = "127.0.0.1";
-    private $dbUsername = "root";
-    private $dbPassword = "";
+    private $dbHost     = "mysql23.ezhostingserver.com";
+    private $dbUsername = "contribuyentes";
+    private $dbPassword = "Contribuyentes123.";
     private $dbName     = "contribuyentes";
     private $userTbl    = 'facebook';
     

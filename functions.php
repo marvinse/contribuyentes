@@ -28,7 +28,7 @@ if( isset($_POST['changePassword']) ){
 }
 
 function connectDB(){
-	$enlace = mysqli_connect("127.0.0.1", "root", "", "contribuyentes");
+	$enlace = mysqli_connect("mysql23.ezhostingserver.com", "contribuyentes", "Contribuyentes123.", "contribuyentes");
 	if ( !$enlace->connect_error) {
 	   return $enlace;
 	}
